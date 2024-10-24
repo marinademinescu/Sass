@@ -1,0 +1,36 @@
+$bg-color: #c0b3b3;
+$text-color: #fff;
+$hover-color: #ff0000;
+
+.navbar {
+    background-color: $bg-color;
+    height: 104px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+
+
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        li {
+            display: inline-block;
+            margin: 0 15px;
+            font-size: 18px;
+
+            a {
+                display: block;
+                color: $text-color;
+                text-decoration: none;
+
+                &:hover {
+                    color: $hover-color;
+                }
+            }
+        }
+    }
+}

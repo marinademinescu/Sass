@@ -1,0 +1,35 @@
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$font-size-base: 16px;
+$heading-font-size: 3em;
+
+body {
+    font-size: $font-size-base;
+    color: $primary-color;
+}
+
+h1 {
+    font-size: $heading-font-size;
+    color: $secondary-color;
+}
+
+a {
+    color: $primary-color;
+    font-size: $heading-font-size;
+
+    &:hover {
+        color: $secondary-color;
+    }
+}
+
+.button {
+    background-color: $primary-color;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid red;
+    border-radius: 7px;
+
+    &:hover {
+        background-color: $secondary-color;
+    }
+}

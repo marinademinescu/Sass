@@ -1,0 +1,29 @@
+.navbar {
+  background-color: #c0b3b3;
+  height: 104px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+.navbar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.navbar ul li {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 18px;
+}
+.navbar ul li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+.navbar ul li a:hover {
+  color: #ff0000;
+}
+
+/*# sourceMappingURL=style.css.map */
