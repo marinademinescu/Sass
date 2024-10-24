@@ -1,0 +1,22 @@
+.menu-item:last-child {
+  background-color: #e7e7e7;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-item {
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid transparent;
+  display: inline-block;
+  font-size: 30px;
+}
+.menu-item:last-child {
+  border-color: #333333;
+  border: solid;
+}/*# sourceMappingURL=style.css.map */
